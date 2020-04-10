@@ -1,1 +1,0 @@
-# Pneumonia-detection-in-Chest-X-Ray-image-with-Deep-Learning
