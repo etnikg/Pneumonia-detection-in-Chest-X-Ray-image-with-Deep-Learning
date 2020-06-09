@@ -21,13 +21,13 @@ part of the routine clinical care of patients.
 For analysis of X-ray images of the chest, all chest radiographs were initially taken.
 checked for quality control by removing all low quality scans or
 unreadable. The diagnoses for the images were then evaluated by two expert physicians before
-to be purged for the training of the preaching model. To calculate the estimation errors, group i
+to be purged for the training of the preaching model. To calculate the estimation errors, group of
 the assessment was also checked by a third expert.
 
 ## Model
 
 Prediction DL model consists of the sequential extension of 5 layers
-CNN (each layer includes two CNN blocks). Between each layer is applied max pooling 2 × 2. As input comes the formatted photo at 150 × 150 × 3 pixels so with respect to RGB. The data enters batch clusters with 4 of them and 100 epoch repetitions for each image. It was first asked to generate 16 3 madh 3 kernels where this number is doubled for each CNN layer reaching 128 3 × 3 kernels in the last layer.
+CNN (each layer includes two CNN blocks). Between each layer is applied max pooling 2 × 2. As input comes the formatted photo at 150 × 150 × 3 pixels so with respect to RGB. The data enters batch clusters with 4 of them and 100 epoch repetitions for each image. It was first asked to generate 16 kernels with format 3x3 where this number is doubled for each CNN layer reaching 128 kernels 3 × 3 in the last layer.
 
 ## Accuracy
 
